@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tahoe Sauna Company Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #ffffff;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            color: #333;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: #333;
+        }
+
+        p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 10px 0 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        ul li::before {
+            content: "•";
+            color: #333;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .email-link {
+            font-weight: bold;
+        }
+
+        .content-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px 0;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #333;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        .footer a {
+            color: #2980b9;
+        }
+
+        .form-container {
+            margin-top: 30px;
+        }
+
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-container input, .form-container textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .form-container input[type="submit"] {
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px 20px;
+        }
+
+        .form-container input[type="submit"]:hover {
+            background-color: #2571a9;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Thanks for your interest in the Tahoe Sauna Company!</h1>
+
+<h3>As a welcome gift, enjoy our introductory <a href="https://rhaefer.github.io/7stepsauna/">7 Steps to Sauna Ebook</a></h3>
+
+<img src="https://storage.mlcdn.com/account_image/1136214/Cx8QAOSfl1IJGygAGZ9fDqnlw33QAK41LSugq20t.png" alt="Tahoe Sauna Company Image" class="content-image">
+
+<div class="form-container">
+    <h3>If you're interested in getting help to design and build your backyard sauna or have any other sauna-related questions, submit a message below!</h3>
+    <form action="https://formspree.io/YOUR_FORM_ID" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="_replyto" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Message" rows="5" required></textarea>
+        <input type="submit" value="Send Message">
+    </form>
+</div>
+
+<div class="footer">
+    <p><strong>Tahoe Sauna Company</strong></p>
+    <p>South Lake Tahoe, California</p>
+    <p><a href="mailto:tahoesaunaco@gmail.com">tahoesaunaco@gmail.com</a></p>
+</div>
+
+</body>
+</html>
