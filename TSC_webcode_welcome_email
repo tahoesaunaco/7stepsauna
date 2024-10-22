@@ -11,6 +11,7 @@
             color: #333;
             background-color: #ffffff;
             padding: 20px;
+            text-align: center; /* Centering main content */
         }
 
         h1 {
@@ -18,7 +19,7 @@
             color: #333;
         }
 
-        h2 {
+        h3 {
             font-size: 1.4rem;
             color: #333;
         }
@@ -82,11 +83,14 @@
 
         .form-container {
             margin-top: 30px;
+            text-align: left;
+            max-width: 600px; /* Matches other content width */
+            margin: 20px auto;
         }
 
         .form-container form {
-            display: flex;
-            flex-direction: column;
+            display: block;
+            width: 100%;
         }
 
         .form-container input, .form-container textarea {
@@ -96,7 +100,7 @@
             border: 1px solid #ccc;
             border-radius: 5px;
             width: 100%;
-            max-width: 600px;
+            box-sizing: border-box;
         }
 
         .form-container input[type="submit"] {
@@ -105,35 +109,45 @@
             border: none;
             cursor: pointer;
             padding: 10px 20px;
+            width: 100%;
+            box-sizing: border-box;
         }
 
         .form-container input[type="submit"]:hover {
             background-color: #2571a9;
         }
+
+        /* Center all content but align text and form inputs to the left */
+        .centered-content {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
 
-<h1>Thanks for your interest in the Tahoe Sauna Company!</h1>
+<div class="centered-content">
+    <h1>Thanks for your interest in the Tahoe Sauna Company!</h1>
 
-<h3>As a welcome gift, enjoy our introductory <a href="https://rhaefer.github.io/7stepsauna/">7 Steps to Sauna Ebook</a></h3>
+    <h3>As a welcome gift, enjoy our introductory <a href="https://tahoesaunaco.github.io/7stepsauna/">7 Steps to Sauna Ebook</a></h3>
 
-<img src="https://storage.mlcdn.com/account_image/1136214/Cx8QAOSfl1IJGygAGZ9fDqnlw33QAK41LSugq20t.png" alt="Tahoe Sauna Company Image" class="content-image">
+    <img src="https://storage.mlcdn.com/account_image/1136214/Cx8QAOSfl1IJGygAGZ9fDqnlw33QAK41LSugq20t.png" alt="Tahoe Sauna Company Image" class="content-image">
 
-<div class="form-container">
-    <h3>If you're interested in getting help to design and build your backyard sauna or have any other sauna-related questions, submit a message below!</h3>
-    <form action="https://formspree.io/YOUR_FORM_ID" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="_replyto" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Message" rows="5" required></textarea>
-        <input type="submit" value="Send Message">
-    </form>
-</div>
+    <div class="form-container">
+        <h3>If you're interested in getting help to design and build your backyard sauna or have any other sauna-related questions, submit a message below!</h3>
+        <form action="https://formspree.io/f/xbljrnaa" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Message" rows="5" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
 
-<div class="footer">
-    <p><strong>Tahoe Sauna Company</strong></p>
-    <p>South Lake Tahoe, California</p>
-    <p><a href="mailto:tahoesaunaco@gmail.com">tahoesaunaco@gmail.com</a></p>
+    <div class="footer">
+        <p><strong>Tahoe Sauna Company</strong></p>
+        <p>South Lake Tahoe, California</p>
+    </div>
 </div>
 
 </body>
